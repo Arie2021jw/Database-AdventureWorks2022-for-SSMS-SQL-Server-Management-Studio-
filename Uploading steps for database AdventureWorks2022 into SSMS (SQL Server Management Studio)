@@ -1,0 +1,35 @@
+  Uploading steps for database AdventureWorks2022 into SSMS (SQL Server Management Studio)
+============================================================================================
+
+1) The step-by-step instructions to restore this database for SSMS can be found on Microsoft's website using the below link:
+https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms
+
+2) Below link directs to Microsoft's website that offers their "AdventureWorks sample databases":
+https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms#download-backup-files
+
+
+For this SQL Server portfolio I used the database AdventureWorks2022, which I uploaded into SSMS using the OLTP link "AdventureWorks2022.bak".
+
+Below are the instructions I followed using the information for restoring database AdventureWorks2022 under tab "SQL Server Management Studio (SSMS).
+  Restore to SQL Server > Tab "SQL Server Management Studio (SSMS):
+
+1) Download the appropriate .bak file directly from Microsoft's website using the below link.
+Path to download backup files: https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms#download-backup-files
+
+2) Move the .bak file to your SQL Server backup location.
+I moved this file from the folder Downloads to folder C:\SQL Server Management Studio
+
+3) Open SSMS and connect to your SQL Server instance.
+
+4) Right-click Databases in Object Explorer > Restore Database... to launch the Restore Database wizard.
+
+5) Select Device, and then Select the ellipses (...) to choose a device.
+
+6) Select Add and then choose the .bak file you recently moved to the backup location. 
+If you moved your file to this location but you're not able to see it in the wizard, SQL Server or the user signed into SQL Server doesn't have permission to this file in this folder.
+
+7) Select OK to confirm your database backup selection and close the Select backup devices window.
+
+8) Check the Files tab to confirm the Restore as location and file names match your intended location and file names in the Restore Database wizard.
+
+9) Select OK to restore your database.

@@ -1,3 +1,7 @@
-My SQL Server portfolio uses the database "AdventureWorks2022".
+I used Microsoft's "AdventureWorks2022" database for my SQL Server portfolio.
 
-This repository contains the step-by-step instructions to restore the database AdventureWorks2022, which are also available on Microsoft's website.
+This repository contains the step-by-step instructions to:
+1) Download Microsoft's "AdventureWorks sample databases",
+2) Upload Microsoft's "AdventureWorks2022" database via the restoring process available directly on Microsoft's website.
+  
+
